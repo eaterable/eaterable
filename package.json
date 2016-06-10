@@ -1,0 +1,36 @@
+{
+  "name": "eaterable",
+  "version": "0.1.0",
+  "description": "ES6 generator-based library for processing collections in lazy and memory efficient way",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha -r ./test/bootstrap.js src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eaterable/eaterable.git"
+  },
+  "keywords": [
+    "generators",
+    "iterators",
+    "collections",
+    "lazy"
+  ],
+  "author": "Yaroslav Serhieiev <noomorph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eaterable/eaterable/issues"
+  },
+  "homepage": "https://github.com/eaterable/eaterable#readme"
+}
