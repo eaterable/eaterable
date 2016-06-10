@@ -11,6 +11,7 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "dirty-chai": "^1.2.2",
+    "eslint": "^2.11.1",
     "isparta": "^4.0.0",
     "mocha": "^2.5.3",
     "sinon": "^1.17.4",
