@@ -6,5 +6,5 @@ chai.use(sinonChai);
 chai.use(dirty);
 chai.should();
 
-GLOBAL.expect = chai.expect;
-GLOBAL.sinon = require('sinon');
+global.expect = chai.expect;
+global.sinon = require('sinon');
